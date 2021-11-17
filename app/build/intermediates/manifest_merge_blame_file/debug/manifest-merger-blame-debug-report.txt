@@ -6,66 +6,66 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml
+8-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml
+9-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:6:5-67
-11-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:6:22-64
+11-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:6:5-67
+11-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:6:22-64
 12    <uses-permission android:name="android.permission.WAKE_LOCK" />
-12-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:7:5-68
-12-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:7:22-65
+12-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:7:5-68
+12-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:7:22-65
 13    <uses-permission android:name="android.permission.VIBRATE" />
-13-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:8:5-66
-13-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:8:22-63
+13-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:8:5-66
+13-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:8:22-63
 14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-14-->[io.realm:realm-android-library-object-server:5.1.0] C:\Users\SDP\.gradle\caches\transforms-2\files-2.1\fbe915cc52935de7749872801d7bccb1\jetified-realm-android-library-object-server-5.1.0\AndroidManifest.xml:10:5-79
-14-->[io.realm:realm-android-library-object-server:5.1.0] C:\Users\SDP\.gradle\caches\transforms-2\files-2.1\fbe915cc52935de7749872801d7bccb1\jetified-realm-android-library-object-server-5.1.0\AndroidManifest.xml:10:22-76
+14-->[io.realm:realm-android-library-object-server:5.1.0] C:\Users\SDP\.gradle\caches\transforms-2\files-2.1\1882947fb16cecaf9ff9904e32666916\jetified-realm-android-library-object-server-5.1.0\AndroidManifest.xml:10:5-79
+14-->[io.realm:realm-android-library-object-server:5.1.0] C:\Users\SDP\.gradle\caches\transforms-2\files-2.1\1882947fb16cecaf9ff9904e32666916\jetified-realm-android-library-object-server-5.1.0\AndroidManifest.xml:10:22-76
 15
 16    <application
-16-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:10:5-31:19
+16-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:10:5-31:19
 17        android:allowBackup="true"
-17-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:11:9-35
+17-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:11:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 18-->[androidx.core:core:1.3.0] C:\Users\SDP\.gradle\caches\transforms-2\files-2.1\56b8faf7ef3b4d033ffa4daba09a688f\core-1.3.0\AndroidManifest.xml:24:18-86
 19        android:debuggable="true"
 20        android:icon="@mipmap/icon"
-20-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:12:9-36
+20-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:12:9-36
 21        android:label="@string/app_name"
-21-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:13:9-41
+21-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:13:9-41
 22        android:roundIcon="@mipmap/icon"
-22-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:14:9-41
+22-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:14:9-41
 23        android:supportsRtl="true"
-23-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:15:9-35
+23-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:15:9-35
 24        android:testOnly="true"
 25        android:theme="@style/AppTheme"
-25-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:16:9-40
+25-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:16:9-40
 26        android:usesCleartextTraffic="true" >
-26-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:17:9-44
+26-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:17:9-44
 27        <activity android:name="com.keluts.warekfilm.activities.DetailMovieActivity" />
-27-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:18:9-88
-27-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:18:19-85
+27-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:18:9-88
+27-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:18:19-85
 28        <activity android:name="com.keluts.warekfilm.activities.DetailTelevisionActivity" />
-28-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:19:9-93
-28-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:19:19-90
+28-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:19:9-93
+28-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:19:19-90
 29        <activity
-29-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:20:9-29:20
+29-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:20:9-29:20
 30            android:name="com.keluts.warekfilm.activities.MainActivity"
-30-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:21:13-72
+30-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:21:13-72
 31            android:configChanges="keyboardHidden|orientation|screenSize"
-31-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:22:13-74
+31-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:22:13-74
 32            android:windowSoftInputMode="adjustPan" >
-32-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:23:13-52
+32-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:23:13-52
 33            <intent-filter>
-33-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:24:13-28:29
+33-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:24:13-28:29
 34                <action android:name="android.intent.action.MAIN" />
-34-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:25:17-69
-34-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:25:25-66
+34-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:25:17-69
+34-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:25:25-66
 35
 36                <category android:name="android.intent.category.LAUNCHER" />
-36-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:27:17-77
-36-->D:\Semester 5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:27:27-74
+36-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:27:17-77
+36-->D:\Semester5\TAM\UTS\project-warekfilm-master\app\src\main\AndroidManifest.xml:27:27-74
 37            </intent-filter>
 38        </activity>
 39
