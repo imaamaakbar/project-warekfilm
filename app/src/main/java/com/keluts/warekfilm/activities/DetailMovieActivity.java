@@ -1,7 +1,9 @@
 package com.keluts.warekfilm.activities;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -14,10 +16,10 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.keluts.warekfilm.R;
 import com.keluts.warekfilm.model.ModelMovie;
 import com.keluts.warekfilm.networking.ApiEndpoint;
-import com.keluts.warekfilm.realm.RealmHelper;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
@@ -29,7 +31,8 @@ public class DetailMovieActivity extends AppCompatActivity {
     String NameFilm, ReleaseDate, Popularity, Overview, Cover, Thumbnail, movieURL;
     int Id;
     ModelMovie modelMovie;
-    RealmHelper helper;
+
+    FloatingActionButton trailer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,7 +64,7 @@ public class DetailMovieActivity extends AppCompatActivity {
         tvOverview = findViewById(R.id.tvOverview);
 
 
-        helper = new RealmHelper(this);
+
 
         modelMovie = (ModelMovie) getIntent().getSerializableExtra("detailMovie");
         if (modelMovie != null) {
@@ -84,7 +87,7 @@ public class DetailMovieActivity extends AppCompatActivity {
             tvOverview.setText(Overview);
             tvTitle.setSelected(true);
             tvName.setSelected(true);
-
+            trailer = findViewById(R.id.trailer);
 
 
             Glide.with(this)
@@ -101,8 +104,18 @@ public class DetailMovieActivity extends AppCompatActivity {
 
         }
 
+        trailer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse("https://www.youtube.com/results?search_query=Trailer+"+NameFilm));
+                startActivity(intent);
+            }
 
 
+        });
 
 
     }

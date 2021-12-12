@@ -31,18 +31,18 @@ public final class R {
         public static final int ic_favorite_border_black_24dp = 0x7f070074;
         public static final int ic_favorite_border_white_24dp = 0x7f070075;
         public static final int ic_favorite_white_24dp = 0x7f070076;
-        public static final int ic_star_black_24dp = 0x7f070082;
-        public static final int ic_star_border_black_24dp = 0x7f070083;
-        public static final int ic_star_border_white_24dp = 0x7f070084;
-        public static final int ic_star_white_24dp = 0x7f070085;
+        public static final int ic_star_black_24dp = 0x7f070083;
+        public static final int ic_star_border_black_24dp = 0x7f070084;
+        public static final int ic_star_border_white_24dp = 0x7f070085;
+        public static final int ic_star_white_24dp = 0x7f070086;
     }
     public static final class id {
         private id() {}
 
         public static final int black = 0x7f080047;
         public static final int heart = 0x7f08008d;
-        public static final int star = 0x7f08010b;
-        public static final int white = 0x7f08014c;
+        public static final int star = 0x7f08010c;
+        public static final int white = 0x7f08014e;
     }
     public static final class string {
         private string() {}

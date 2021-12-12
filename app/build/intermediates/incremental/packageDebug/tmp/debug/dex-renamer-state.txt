@@ -1,7 +1,7 @@
-#Thu Nov 18 02:36:18 ICT 2021
-base.1=D\:\\Semester5\\TAM\\UTS\\project-warekfilm-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+#Mon Dec 13 00:18:29 ICT 2021
+base.1=C\:\\Users\\SDP\\Documents\\GitHub\\project-warekfilm\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
 path.1=classes.dex
-base.0=D\:\\Semester5\\TAM\\UTS\\project-warekfilm-master\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+base.0=C\:\\Users\\SDP\\Documents\\GitHub\\project-warekfilm\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 path.0=classes.dex

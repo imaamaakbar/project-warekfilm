@@ -1493,6 +1493,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_notification
+drawable ic_play
 drawable ic_search
 drawable ic_star_black_24dp
 drawable ic_star_border_black_24dp
@@ -1770,6 +1771,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchFilm
 id search_badge
 id search_bar
 id search_button
@@ -1844,6 +1846,7 @@ id toolbar
 id top
 id topPanel
 id touch_outside
+id trailer
 id transition_current_scene
 id transition_layout_save
 id transition_position
@@ -2103,6 +2106,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string search_film
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat

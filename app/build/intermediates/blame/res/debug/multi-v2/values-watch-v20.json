@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Semester5\\TAM\\UTS\\project-warekfilm-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "outputFile": "C:\\Users\\SDP\\Documents\\GitHub\\project-warekfilm\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
                     "source": "C:\\Users\\SDP\\.gradle\\caches\\transforms-2\\files-2.1\\c6c9f2ba1051a6cd87625b33904019b5\\appcompat-1.2.0\\res\\values-watch-v20\\values-watch-v20.xml",
